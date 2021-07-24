@@ -179,7 +179,7 @@ h1.logo-title.text-light {
  welcome setion
 ==================== 
  */
- /* span.welcome-carcle-1{
+ span.welcome-carcle-1{
     content: "";
     width: 25rem;
     height: 25rem;
@@ -188,7 +188,7 @@ h1.logo-title.text-light {
     border-radius: 50%;
     top: 50%;
     left: -157px;
-    } */
+    }
     span.welcome-carcle-2{
         content: "";
         width: 43rem;
