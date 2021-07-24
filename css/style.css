@@ -1,0 +1,249 @@
+/* google fonts css link  */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dteam-bg:#fc653c;
+    --dteam-color:#fc653c;
+}
+html{
+    font-size: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+ul li{
+  list-style: none;  
+}
+a{
+    text-decoration: none;
+}
+a,
+p,
+span,
+strong{
+ font-size: 1.6rem;
+}
+
+.container-manu{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header 
+================== */
+
+
+.welcome-section-image{
+    background: linear-gradient(rgb(0 0 0 / 73%),rgb(0 0 0 / 77%),rgb(0 0 0 / 52%),rgb(0 0 0 / 70%)), url(../image/cover/welcome-img.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+
+.dteam-container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+/*==================
+        nav 
+====================*/
+
+.nav-wrapper-main{
+ 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+/* dteam-logo-box */
+.dteam-logo-box .dteam-title{
+    color: var(--dteam-color);
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.dteam-logo-box h1{
+    text-transform: lowercase;
+    font-size: 2.5rem;
+}
+h1.logo-title.text-light {
+    text-transform: lowercase;
+    font-weight: 800;
+}
+.dteam-logo-icon-box{
+    display: flex;
+    align-items: center;
+}
+.serach-box {
+    padding-left: 38px;
+}
+.serach-box i{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.social-icon-list,
+.nav-manu-list,
+.number-box{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.serach-box i,
+.social-icon-list .icon-item i,
+.phone-icon-wrap i,
+.number-box .contact-number{
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: all .6s;
+}
+
+.icon-item:hover i{
+    color:var(--dteam-color)
+}
+
+
+.nav-manu-list{
+    margin-right:2rem ;
+}
+.nav-manu-box .nav-manu-list .nav-manu-item a{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.social-icon-box.col-md-2 {
+    padding: 0px 41px 0px 12px;
+}
+
+.nav-manu-box.col-md-6 {
+    padding: 0px 50px 0px 16px;
+}
+.number-box{
+    transition: all .6s;
+}
+.number-box i{
+    font-size: 1.7rem;
+    transition: all .3s;
+}
+.number-box .contact-number{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.number-box .fa-phone-volume{
+    font-weight: 600;
+}
+.phone-icon-wrap{
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    background-color: #00000036;
+    border-radius: 50%;
+    margin-left: 3rem;
+    align-items: center;
+    transition: all .6s;
+}
+
+.number-box:hover .phone-icon-wrap{
+    background-color: white;
+    
+}
+.number-box:hover .fa-phone-volume,
+.contact-number{
+    color: var(--dteam-bg);
+}
+.dteam-logo-icon-box{
+    position: relative;
+}
+.serach-box::after {
+    content: "";
+    width: 1px;
+    height: 45px;
+    background: silver;
+    position: absolute;
+    top: 0px;
+    right: 14px;
+}
+/*=====================
+ welcome setion
+==================== 
+ */
+ /* span.welcome-carcle-1{
+    content: "";
+    width: 25rem;
+    height: 25rem;
+    background: var(--dteam-bg);
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: -157px;
+    } */
+    span.welcome-carcle-2{
+        content: "";
+        width: 43rem;
+        height: 43rem;
+        background: var(--dteam-bg);
+        position: absolute;
+        border-radius: 50%;
+        top: 46%;
+        right: -200px;
+        }
+
+ section.welcome-section {
+    height: 712px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .welcome-wrapper h3,h1 {
+     color: white;
+     text-transform: capitalize;
+    }
+
+.welcome-wrapper h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.welcome-wrapper h1 {
+    font-size: 12rem;
+    font-weight: bold;
+    line-height: 110px;
+    margin-bottom: 10rem;
+}
+
+.row.welcome-section-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.dteam-btn{
+    padding: 16px 37px;
+    font-size: 1.6rem;
+    background: var(--dteam-bg);
+    border: 0px;
+    border-radius: 37px;
+    color: white;
+    font-weight: 500;
+    transition:all 1s;
+}
+.dteam-btn:hover{
+  background:linear-gradient(#c92205ad,#c92305);
+  color: white;
+}
